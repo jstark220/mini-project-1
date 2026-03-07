@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What Am I Reading? | Sachiel Varada</title>
+  <meta name="description" content="Articles, papers, and pieces that Sachiel Varada has been reading — with his take on each. Topics include accounting, audit, capital markets, and financial reporting." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Sachiel Varada</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#education">Education</a></li>
+        <li><a href="index.html#activities">Activities</a></li>
+        <li class="nav-divider" aria-hidden="true"></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li class="nav-divider" aria-hidden="true"></li>
+        <li><a href="reading.html" class="active">Reading</a></li>
+        <li>
+          <a href="index.html#contact" class="btn btn-primary nav-contact-btn">Contact</a>
+        </li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="reading-hero">
+    <div class="reading-hero-inner">
+      <div class="reading-hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        Updated Regularly
+      </div>
+      <h1 class="reading-hero-title">What Am I Reading?</h1>
+      <p class="reading-hero-desc">
+        Articles, papers, and pieces that have caught my attention — with a brief take on why they matter. Mostly accounting, audit, and capital markets. Occasionally something further afield.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== READING FEED ===================== -->
+  <section class="reading-feed">
+    <div class="reading-feed-inner">
+
+      <!-- Article Feed -->
+      <main>
+        <div class="article-list">
+
+          <!-- ===== ARTICLE 1 ===== -->
+          <article class="article-card" id="article-1">
+            <div class="article-card-body">
+              <div class="article-meta">
+                <span class="article-publication">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                  PCAOB
+                </span>
+                <span class="article-dot"></span>
+                <span class="article-date">February 2025</span>
+                <span class="article-dot"></span>
+                <span class="article-read-time">~12 min read</span>
+              </div>
+
+              <h2 class="article-title">
+                <a href="https://pcaobus.org" target="_blank" rel="noopener">
+                  PCAOB 2024 Inspection Findings: Common Deficiencies in Revenue and Related Accounts
+                </a>
+              </h2>
+              <div class="article-source-url">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                pcaobus.org &mdash; Inspection Reports &amp; Findings
+              </div>
+
+              <div class="article-take">
+                <div class="article-take-label">Sachiel's Take</div>
+                <p class="article-take-text">
+                  The PCAOB's recurring focus on revenue-related deficiencies continues to underline just how difficult ASC 606 compliance is in practice — especially the identification of performance obligations. The findings reinforce what I observed during my internship: even experienced teams can struggle with documentation rigor when time pressure mounts. If you are going into audit, knowing where inspectors commonly flag issues is invaluable preparation.
+                </p>
+              </div>
+
+              <div class="article-tags">
+                <span class="article-tag">Auditing</span>
+                <span class="article-tag">PCAOB</span>
+                <span class="article-tag">Revenue Recognition</span>
+                <span class="article-tag">ASC 606</span>
+                <span class="article-tag">Inspection</span>
+              </div>
+            </div>
+
+            <div class="article-comments">
+              <div class="comments-toggle-bar" onclick="toggleComments(this)">
+                <div class="comments-toggle-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  Discussion
+                  <span class="comment-count-badge">2 comments</span>
+                </div>
+                <svg class="comments-toggle-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+
+              <div class="comments-body">
+                <div class="comments-inner">
+                  <div class="comment-list">
+                    <div class="comment-item">
+                      <div class="comment-avatar">JR</div>
+                      <div class="comment-content">
+                        <div class="comment-header">
+                          <span class="comment-author">James R.</span>
+                          <span class="comment-time">2 weeks ago</span>
+                        </div>
+                        <p class="comment-text">Great point on performance obligations. We saw the same issues in our Big 4 internship — the 5-step model sounds simple but applying it to complex contracts is a completely different exercise. Curious if you think the standard needs further guidance or if it is mostly a practice/training gap.</p>
+                      </div>
+                    </div>
+                    <div class="comment-item">
+                      <div class="comment-avatar">AP</div>
+                      <div class="comment-content">
+                        <div class="comment-header">
+                          <span class="comment-author">Anika P.</span>
+                          <span class="comment-time">1 week ago</span>
+                        </div>
+                        <p class="comment-text">The documentation piece is what gets teams every time. Under pressure, audit evidence that seemed sufficient in the moment does not hold up on re-inspection. Your point about the internship experience translating directly to understanding PCAOB findings is well taken.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="comment-form-section">
+                    <div class="comment-form-title">Leave a Comment</div>
+                    <div class="comment-success" id="success-1">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                      Thanks for your comment! It will appear here shortly.
+                    </div>
+                    <form class="comment-form" onsubmit="submitComment(event, 'success-1')">
+                      <div class="comment-form-row">
+                        <div class="comment-field">
+                          <label for="c1-name">Name</label>
+                          <input type="text" id="c1-name" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="comment-field">
+                          <label for="c1-email">Email</label>
+                          <input type="email" id="c1-email" name="email" placeholder="your@email.com" required />
+                        </div>
+                      </div>
+                      <div class="comment-field">
+                        <label for="c1-comment">Comment</label>
+                        <textarea id="c1-comment" name="comment" placeholder="Share your thoughts on this article..." required></textarea>
+                      </div>
+                      <div class="comment-submit-row">
+                        <span class="comment-notice">Your email will not be published.</span>
+                        <button type="submit" class="btn btn-primary btn-comment-submit">Post Comment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== ARTICLE 2 ===== -->
+          <article class="article-card" id="article-2">
+            <div class="article-card-body">
+              <div class="article-meta">
+                <span class="article-publication">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                  FASB
+                </span>
+                <span class="article-dot"></span>
+                <span class="article-date">January 2025</span>
+                <span class="article-dot"></span>
+                <span class="article-read-time">~8 min read</span>
+              </div>
+
+              <h2 class="article-title">
+                <a href="https://fasb.org" target="_blank" rel="noopener">
+                  ASU 2023-09: Improvements to Income Tax Disclosures — What Changes and Why It Matters
+                </a>
+              </h2>
+              <div class="article-source-url">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                fasb.org &mdash; Accounting Standards Update
+              </div>
+
+              <div class="article-take">
+                <div class="article-take-label">Sachiel's Take</div>
+                <p class="article-take-text">
+                  ASU 2023-09 is one of the more consequential disclosure updates in recent years for public companies. The disaggregated rate reconciliation requirement in particular will demand significantly more work from tax and financial reporting teams — but it gives investors far better tools to understand effective tax rate drivers. This is a good example of FASB listening to investors over preparers, and I think it is the right call. Effective for fiscal years beginning after December 15, 2024 for public companies — meaning audit teams will be dealing with this immediately.
+                </p>
+              </div>
+
+              <div class="article-tags">
+                <span class="article-tag">Financial Reporting</span>
+                <span class="article-tag">FASB</span>
+                <span class="article-tag">Income Tax</span>
+                <span class="article-tag">Disclosure</span>
+                <span class="article-tag">ASU 2023-09</span>
+              </div>
+            </div>
+
+            <div class="article-comments">
+              <div class="comments-toggle-bar" onclick="toggleComments(this)">
+                <div class="comments-toggle-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  Discussion
+                  <span class="comment-count-badge">1 comment</span>
+                </div>
+                <svg class="comments-toggle-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+
+              <div class="comments-body">
+                <div class="comments-inner">
+                  <div class="comment-list">
+                    <div class="comment-item">
+                      <div class="comment-avatar">MK</div>
+                      <div class="comment-content">
+                        <div class="comment-header">
+                          <span class="comment-author">Michael K.</span>
+                          <span class="comment-time">3 weeks ago</span>
+                        </div>
+                        <p class="comment-text">The rate reconciliation change is going to be a major lift for multinational companies with complex tax structures. Curious what you think the downstream audit implications are — more documentation burden, or do you see this actually making certain areas of audit easier?</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="comment-form-section">
+                    <div class="comment-form-title">Leave a Comment</div>
+                    <div class="comment-success" id="success-2">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                      Thanks for your comment! It will appear here shortly.
+                    </div>
+                    <form class="comment-form" onsubmit="submitComment(event, 'success-2')">
+                      <div class="comment-form-row">
+                        <div class="comment-field">
+                          <label for="c2-name">Name</label>
+                          <input type="text" id="c2-name" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="comment-field">
+                          <label for="c2-email">Email</label>
+                          <input type="email" id="c2-email" name="email" placeholder="your@email.com" required />
+                        </div>
+                      </div>
+                      <div class="comment-field">
+                        <label for="c2-comment">Comment</label>
+                        <textarea id="c2-comment" name="comment" placeholder="Share your thoughts on this article..." required></textarea>
+                      </div>
+                      <div class="comment-submit-row">
+                        <span class="comment-notice">Your email will not be published.</span>
+                        <button type="submit" class="btn btn-primary btn-comment-submit">Post Comment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== ARTICLE 3 ===== -->
+          <article class="article-card" id="article-3">
+            <div class="article-card-body">
+              <div class="article-meta">
+                <span class="article-publication">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                  Harvard Business Review
+                </span>
+                <span class="article-dot"></span>
+                <span class="article-date">December 2024</span>
+                <span class="article-dot"></span>
+                <span class="article-read-time">~15 min read</span>
+              </div>
+
+              <h2 class="article-title">
+                <a href="https://hbr.org" target="_blank" rel="noopener">
+                  The Hidden Costs of Quarterly Earnings Guidance: Evidence from Long-Term Investment Decisions
+                </a>
+              </h2>
+              <div class="article-source-url">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                hbr.org &mdash; Harvard Business Review
+              </div>
+
+              <div class="article-take">
+                <div class="article-take-label">Sachiel's Take</div>
+                <p class="article-take-text">
+                  The short-termism debate is evergreen, but this piece brings solid empirical grounding to what is often a philosophical argument. The evidence that quarterly guidance correlates with underinvestment in R&D and capital expenditures is not surprising — but the magnitude is. From an audit and financial reporting perspective, this also raises questions about how management bias in estimate-setting might interact with earnings guidance targets. Worth reading alongside anything on the SEC's push for more forward-looking MD&amp;A disclosures.
+                </p>
+              </div>
+
+              <div class="article-tags">
+                <span class="article-tag">Capital Markets</span>
+                <span class="article-tag">Earnings Guidance</span>
+                <span class="article-tag">Short-termism</span>
+                <span class="article-tag">Financial Reporting</span>
+              </div>
+            </div>
+
+            <div class="article-comments">
+              <div class="comments-toggle-bar" onclick="toggleComments(this)">
+                <div class="comments-toggle-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  Discussion
+                  <span class="comment-count-badge">0 comments</span>
+                </div>
+                <svg class="comments-toggle-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+
+              <div class="comments-body">
+                <div class="comments-inner">
+                  <div class="no-comments">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <p>No comments yet &mdash; be the first.</p>
+                  </div>
+
+                  <div class="comment-form-section">
+                    <div class="comment-form-title">Leave a Comment</div>
+                    <div class="comment-success" id="success-3">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                      Thanks for your comment! It will appear here shortly.
+                    </div>
+                    <form class="comment-form" onsubmit="submitComment(event, 'success-3')">
+                      <div class="comment-form-row">
+                        <div class="comment-field">
+                          <label for="c3-name">Name</label>
+                          <input type="text" id="c3-name" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="comment-field">
+                          <label for="c3-email">Email</label>
+                          <input type="email" id="c3-email" name="email" placeholder="your@email.com" required />
+                        </div>
+                      </div>
+                      <div class="comment-field">
+                        <label for="c3-comment">Comment</label>
+                        <textarea id="c3-comment" name="comment" placeholder="Share your thoughts on this article..." required></textarea>
+                      </div>
+                      <div class="comment-submit-row">
+                        <span class="comment-notice">Your email will not be published.</span>
+                        <button type="submit" class="btn btn-primary btn-comment-submit">Post Comment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== ARTICLE 4 ===== -->
+          <article class="article-card" id="article-4">
+            <div class="article-card-body">
+              <div class="article-meta">
+                <span class="article-publication">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                  Journal of Accountancy
+                </span>
+                <span class="article-dot"></span>
+                <span class="article-date">November 2024</span>
+                <span class="article-dot"></span>
+                <span class="article-read-time">~10 min read</span>
+              </div>
+
+              <h2 class="article-title">
+                <a href="https://journalofaccountancy.com" target="_blank" rel="noopener">
+                  Going Concern in a Post-Pandemic World: Updated Considerations for Auditors Under AU-C Section 570
+                </a>
+              </h2>
+              <div class="article-source-url">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                journalofaccountancy.com &mdash; Journal of Accountancy
+              </div>
+
+              <div class="article-take">
+                <div class="article-take-label">Sachiel's Take</div>
+                <p class="article-take-text">
+                  Going concern has always been one of the more judgment-intensive areas of audit — and the macro environment of the past few years has made it harder, not easier. This piece does a good job laying out how auditors should be thinking about the 12-month look-forward period when clients are operating with elevated debt loads and uncertain rate environments. The discussion of mitigating factors and management's plans is particularly useful for anyone preparing for the CPA exam's AUD section, where going concern comes up frequently.
+                </p>
+              </div>
+
+              <div class="article-tags">
+                <span class="article-tag">Auditing</span>
+                <span class="article-tag">Going Concern</span>
+                <span class="article-tag">AU-C 570</span>
+                <span class="article-tag">Accounting Policy</span>
+              </div>
+            </div>
+
+            <div class="article-comments">
+              <div class="comments-toggle-bar" onclick="toggleComments(this)">
+                <div class="comments-toggle-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  Discussion
+                  <span class="comment-count-badge">0 comments</span>
+                </div>
+                <svg class="comments-toggle-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+
+              <div class="comments-body">
+                <div class="comments-inner">
+                  <div class="no-comments">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <p>No comments yet &mdash; be the first.</p>
+                  </div>
+
+                  <div class="comment-form-section">
+                    <div class="comment-form-title">Leave a Comment</div>
+                    <div class="comment-success" id="success-4">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                      Thanks for your comment! It will appear here shortly.
+                    </div>
+                    <form class="comment-form" onsubmit="submitComment(event, 'success-4')">
+                      <div class="comment-form-row">
+                        <div class="comment-field">
+                          <label for="c4-name">Name</label>
+                          <input type="text" id="c4-name" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="comment-field">
+                          <label for="c4-email">Email</label>
+                          <input type="email" id="c4-email" name="email" placeholder="your@email.com" required />
+                        </div>
+                      </div>
+                      <div class="comment-field">
+                        <label for="c4-comment">Comment</label>
+                        <textarea id="c4-comment" name="comment" placeholder="Share your thoughts on this article..." required></textarea>
+                      </div>
+                      <div class="comment-submit-row">
+                        <span class="comment-notice">Your email will not be published.</span>
+                        <button type="submit" class="btn btn-primary btn-comment-submit">Post Comment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== ARTICLE 5 ===== -->
+          <article class="article-card" id="article-5">
+            <div class="article-card-body">
+              <div class="article-meta">
+                <span class="article-publication">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                  SEC.gov
+                </span>
+                <span class="article-dot"></span>
+                <span class="article-date">October 2024</span>
+                <span class="article-dot"></span>
+                <span class="article-read-time">~20 min read</span>
+              </div>
+
+              <h2 class="article-title">
+                <a href="https://sec.gov" target="_blank" rel="noopener">
+                  SEC Final Rule: The Enhancement and Standardization of Climate-Related Disclosures for Investors
+                </a>
+              </h2>
+              <div class="article-source-url">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                sec.gov &mdash; Final Rules &amp; Regulations
+              </div>
+
+              <div class="article-take">
+                <div class="article-take-label">Sachiel's Take</div>
+                <p class="article-take-text">
+                  The SEC's climate disclosure rule — even in its scaled-back form following court challenges — is probably the most consequential change to public company reporting in a generation. The Scope 1 and 2 emissions disclosures for large accelerated filers, combined with attestation requirements, will pull auditors and accountants into sustainability reporting in a serious way. I am watching this closely both as someone entering audit and as someone interested in how capital markets price ESG risk. The rule's ultimate fate is still uncertain, but the direction of travel is clear.
+                </p>
+              </div>
+
+              <div class="article-tags">
+                <span class="article-tag">ESG</span>
+                <span class="article-tag">SEC</span>
+                <span class="article-tag">Climate Disclosure</span>
+                <span class="article-tag">Financial Reporting</span>
+                <span class="article-tag">Regulatory</span>
+              </div>
+            </div>
+
+            <div class="article-comments">
+              <div class="comments-toggle-bar" onclick="toggleComments(this)">
+                <div class="comments-toggle-label">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  Discussion
+                  <span class="comment-count-badge">0 comments</span>
+                </div>
+                <svg class="comments-toggle-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </div>
+
+              <div class="comments-body">
+                <div class="comments-inner">
+                  <div class="no-comments">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <p>No comments yet &mdash; be the first.</p>
+                  </div>
+
+                  <div class="comment-form-section">
+                    <div class="comment-form-title">Leave a Comment</div>
+                    <div class="comment-success" id="success-5">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                      Thanks for your comment! It will appear here shortly.
+                    </div>
+                    <form class="comment-form" onsubmit="submitComment(event, 'success-5')">
+                      <div class="comment-form-row">
+                        <div class="comment-field">
+                          <label for="c5-name">Name</label>
+                          <input type="text" id="c5-name" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="comment-field">
+                          <label for="c5-email">Email</label>
+                          <input type="email" id="c5-email" name="email" placeholder="your@email.com" required />
+                        </div>
+                      </div>
+                      <div class="comment-field">
+                        <label for="c5-comment">Comment</label>
+                        <textarea id="c5-comment" name="comment" placeholder="Share your thoughts on this article..." required></textarea>
+                      </div>
+                      <div class="comment-submit-row">
+                        <span class="comment-notice">Your email will not be published.</span>
+                        <button type="submit" class="btn btn-primary btn-comment-submit">Post Comment</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- end .article-list -->
+      </main>
+
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">Sachiel Varada</div>
+      <div class="footer-copy">&copy; 2025 Sachiel Varada. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/sachielvarada/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com/materialitychck" target="_blank" rel="noopener">X (Twitter)</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING CONTACT ===================== -->
+  <a href="index.html#contact" class="float-contact">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    <span class="float-contact-label">Contact</span>
+  </a>
+
+  <!-- Mobile nav backdrop -->
+  <div class="nav-backdrop" id="nav-backdrop"></div>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // Mobile nav toggle with burger animation
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    const backdrop = document.getElementById('nav-backdrop');
+
+    function openMenu() {
+      navLinks.classList.add('open');
+      navToggle.classList.add('open');
+      backdrop.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMenu() {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+      backdrop.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    backdrop.addEventListener('click', closeMenu);
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeMenu();
+    });
+
+    // Toggle comment sections open/closed
+    function toggleComments(bar) {
+      const body = bar.nextElementSibling;
+      const chevron = bar.querySelector('.comments-toggle-chevron');
+      const isOpen = body.classList.contains('open');
+
+      body.classList.toggle('open', !isOpen);
+      chevron.classList.toggle('open', !isOpen);
+    }
+
+    // Comment form submission (UI only — wire up to a backend like Formspree or Supabase for persistence)
+    function submitComment(e, successId) {
+      e.preventDefault();
+      const form = e.target;
+      const successEl = document.getElementById(successId);
+      const btn = form.querySelector('button[type="submit"]');
+
+      btn.disabled = true;
+      btn.textContent = 'Posting...';
+
+      // Simulate a short delay (replace with actual fetch() to your backend)
+      setTimeout(() => {
+        form.style.display = 'none';
+        successEl.style.display = 'flex';
+
+        // Reset after a delay so the form is reusable
+        setTimeout(() => {
+          form.reset();
+          form.style.display = 'flex';
+          successEl.style.display = 'none';
+          btn.disabled = false;
+          btn.textContent = 'Post Comment';
+        }, 5000);
+      }, 600);
+    }
+  </script>
+
+</body>
+</html>
