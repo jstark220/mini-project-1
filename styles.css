@@ -1459,6 +1459,32 @@ a:hover {
   display: block;
 }
 
+.twitter-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  min-height: 400px;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--blue-tint);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--blue-pale);
+}
+
+.twitter-fallback-icon {
+  color: var(--blue);
+  opacity: 0.7;
+}
+
+.twitter-fallback-text {
+  color: var(--gray-600);
+  font-size: 1rem;
+  max-width: 340px;
+  line-height: 1.6;
+}
+
 /* =========================================
    READING PAGE
    ========================================= */
