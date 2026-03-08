@@ -103,15 +103,51 @@
             </a>
           </div>
 
-          <div class="twitter-embed-wrapper" id="twitter-embed-wrapper">
-            <a class="twitter-timeline"
-               data-lang="en"
-               data-height="900"
-               data-theme="light"
-               data-chrome="noheader nofooter noborders"
-               href="https://twitter.com/materialitychck">
-              Loading posts&hellip;
+          <div class="post-cards">
+
+            <a class="post-card" href="https://x.com/materialitychck/status/2015471779142050098" target="_blank" rel="noopener">
+              <div class="post-card-meta">
+                <span class="post-card-handle">@materialitychck</span>
+                <svg class="post-card-x" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </div>
+              <div class="post-card-title">The Challenges of Investing in Anthropic/Claude</div>
+              <div class="post-card-cta">Read on X &rarr;</div>
             </a>
+
+            <a class="post-card" href="https://x.com/materialitychck/status/2014784207852339448" target="_blank" rel="noopener">
+              <div class="post-card-meta">
+                <span class="post-card-handle">@materialitychck</span>
+                <svg class="post-card-x" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </div>
+              <div class="post-card-title">Micron Technology's Run</div>
+              <div class="post-card-cta">Read on X &rarr;</div>
+            </a>
+
+            <a class="post-card" href="https://x.com/materialitychck/status/2014519343778828444" target="_blank" rel="noopener">
+              <div class="post-card-meta">
+                <span class="post-card-handle">@materialitychck</span>
+                <svg class="post-card-x" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </div>
+              <div class="post-card-title">Google's Investment in SpaceX</div>
+              <div class="post-card-cta">Read on X &rarr;</div>
+            </a>
+
+            <a class="post-card" href="https://x.com/materialitychck/status/2013716967589294140" target="_blank" rel="noopener">
+              <div class="post-card-meta">
+                <span class="post-card-handle">@materialitychck</span>
+                <svg class="post-card-x" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </div>
+              <div class="post-card-title">Palantir's RPO Accounting</div>
+              <div class="post-card-cta">Read on X &rarr;</div>
+            </a>
+
+            <div class="post-cards-footer">
+              <a href="https://x.com/materialitychck" target="_blank" rel="noopener" class="btn btn-outline">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                View all posts on X
+              </a>
+            </div>
+
           </div>
         </div>
       </main>
@@ -142,37 +178,6 @@
   <div class="nav-backdrop" id="nav-backdrop"></div>
 
   <!-- ===================== SCRIPTS ===================== -->
-  <!-- Twitter Widgets — loads the embedded timeline -->
-  <script>
-    window.twttr = (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
-      if (d.getElementById(id)) return t;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = 'https://platform.twitter.com/widgets.js';
-      fjs.parentNode.insertBefore(js, fjs);
-      t._e = [];
-      t.ready = function(f) { t._e.push(f); };
-      return t;
-    }(document, 'script', 'twitter-wjs'));
-
-    twttr.ready(function(twttr) {
-      twttr.widgets.load(document.getElementById('twitter-embed-wrapper'));
-    });
-
-    // Fallback: if widget hasn't rendered an iframe after 4s, show a direct link card
-    setTimeout(function() {
-      var wrapper = document.getElementById('twitter-embed-wrapper');
-      if (wrapper && !wrapper.querySelector('iframe')) {
-        wrapper.innerHTML = '<div class="twitter-fallback">' +
-          '<div class="twitter-fallback-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></div>' +
-          '<p class="twitter-fallback-text">View the latest posts from <strong>Materiality Check</strong> directly on X.</p>' +
-          '<a href="https://x.com/materialitychck" target="_blank" rel="noopener" class="btn btn-primary">View @materialitychck on X</a>' +
-          '</div>';
-      }
-    }, 4000);
-  </script>
-
   <script>
     // Navbar scroll effect
     const navbar = document.getElementById('navbar');
